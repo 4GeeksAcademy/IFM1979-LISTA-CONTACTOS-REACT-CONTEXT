@@ -1,0 +1,70 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Asegura que el modal esté encima de otros elementos */
+}
+
+.modal-content {
+    background: #d9d9d9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    animation: fadeIn 0.3s ease; /* Añade una pequeña animación */
+}
+
+.modal-content h2 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #232323;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.modal-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-confirm {
+    background-color: #dc3545; /* Verde oscuro por defecto */
+    color: white;
+}
+
+.btn-cancel {
+    background-color: #28a745; /* Rojo oscuro por defecto */
+    color: white;
+}
+
+.btn-confirm:hover {
+    background-color: #c82333; /* Verde más claro al pasar el ratón */
+    color: #e9ecef; /* Color del texto un poco más claro */
+}
+
+.btn-cancel:hover {
+    background-color: #218838; /* Rojo más claro al pasar el ratón */
+    color: #e9ecef; /* Color del texto un poco más claro */
+}

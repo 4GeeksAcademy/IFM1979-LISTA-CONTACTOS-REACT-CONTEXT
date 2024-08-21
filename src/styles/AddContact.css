@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(235, 231, 228);
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #525252;
+    border-radius: 5px;
+}
+ 
+#guardar-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #525252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#guardar-btn:hover {
+    background-color: #ffff;
+    color: black
+}
+
+.btn-lg {
+    background-color: #525252; 
+    color: white; 
+    font-weight: bold;
+    border-radius: 10px; 
+    border: 1px solid #0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.btn-lg:hover {
+    background-color: #ffff;
+    color: black;
+}
